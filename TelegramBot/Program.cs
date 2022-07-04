@@ -9,7 +9,7 @@ namespace TelegramBot
         private static TelegramBotClient botClient;
         public static async Task Main(string[] args)
         {
-            botClient = new TelegramBotClient("5308130432:AAFuba3_1oZrIfQoRXRSfKSnmmoG7rZQ9Qw");
+            botClient = new TelegramBotClient("");
 
             User me = await botClient.GetMeAsync();
 
